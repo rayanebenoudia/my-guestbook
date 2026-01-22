@@ -15,6 +15,7 @@ session_start();
         <img src="images/logo-nations-removebg-preview.png" alt="logo_guestbook">
     </div>
     <nav class="menu">
+        
     <ul>
         <li><a href="./index.php">Accueil</a></li>
         <li><a href="./guestbook.php">Livre d'or</a></li>
