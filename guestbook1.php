@@ -1,25 +1,9 @@
-<!DOCTYPE html>
-<htlml lang = fr>
-<head>
-    <title>guestbook</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
-<div class= "logo" >
- 
-</div>
+<?php
+require_once 'includes/header.php';
+?>
 
-<div class= "accueil" >
-<a href = "guestbook1.php"> Accueil </a>
-</div>
+<h2>Livre d’or</h2>
 
-<div class= "connexion" >
-<a href = "connexion.php"> Connexion </a>
-</div>
-
-<div class= "messages" >
-<a href = "messages.php"> messages </a>
-</div>
+<?php
+require_once 'includes/footer.php';
+?>
