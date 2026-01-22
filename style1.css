@@ -1,0 +1,342 @@
+/* Rectangle 1 */
+.header {
+width: 100vw;
+height: 157px;
+left: 0px;
+top: -2px;
+background: #D9D9D9;
+display: flex;
+flex-direction: row;
+}
+
+/* Rectangle 1 */
+.rectangle_2{
+width: 100vw;
+height: 57px;
+left: 0px;
+bottom: -2px;
+background: #D9D9D9;
+}
+
+/* Accueil */
+.accueil{
+width: 233px;
+height: 78px;
+left: 600px;
+top: 40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+margin-left: 700px;
+color: #000000;
+}
+
+
+/* Crée un compte */
+.cration_compte{
+width: 1440px;
+height: 121px;
+left: 0px;
+top: 163px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 97px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+
+/* Ellipse 1 */
+.ellipse{
+width: 100px;
+height: 100px;
+left: 1750px;
+top: 14px;
+
+background: #FFFFFF;
+}
+
+/* Profil */
+.profil{
+width: 85px;
+height: 28px;
+left: 1770px;
+top: 116px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+
+/* Connexion */
+.connexion{
+
+left: 1200px;
+top: 33px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+
+/* Ellipse 2 */
+.ellipse2{
+width: 117px;
+height: 117px;
+left: 55px;
+top: 20px;
+
+background: #000000;
+}
+
+/* LOGO */
+.Logo{
+width: 159px;
+height: 78px;
+left: 34px;
+top: 40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+/* Messages */
+.messages{
+
+left: 900px;
+top: 41px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+flex-direction: row;
+align-items: center;
+text-align: center;
+color: #000000;
+
+}
+
+/* Rectangle 9 */
+.rectangle_9{
+width: 1010px;
+height: 557px;
+left: 500px;
+top: 295px;
+
+background: #D9D9D9;
+border-radius: 10px;
+}
+
+/* Rectangle 10 */
+.rectangle_10{
+width: 856px;
+height: 56px;
+left: 580px;
+top: 360px;
+
+background: #FFFFFF;
+border-radius: 10px;
+
+}
+/* Rectangle 11 */
+.rectangle_11{
+width: 856px;
+height: 56px;
+left: 580px;
+top: 553px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+
+/* Pseudo */
+.pseudo{
+width: 223px;
+height: 27px;
+left: 550px;
+top: 330px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: flex-end;
+
+color: #000000;
+}
+
+
+/* LaPlateforme.io */
+.laplateforme.io{
+width: 223px;
+height: 27px;
+left: 300px;
+top: 375px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: flex-end;
+
+color: #D9D9D9;
+}
+
+
+/* Rectangle 14 */
+.rectangle_14 {
+width: 856px;
+height: 56px;
+left: 580px;
+top: 454px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+/* Email */
+.email {
+width: 223px;
+height: 27px;
+left: 550px;
+top: 424px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: flex-end;
+
+color: #000000;
+}
+
+
+
+
+
+
+/* Mot de passe */
+.mots_de_passe{
+width: 223px;
+height: 27px;
+left: 550px;
+top: 524px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: flex-end;
+
+color: #000000;
+}
+
+
+
+
+
+/* Rectangle 13 */
+.rectangle_13{
+width: 856px;
+height: 56px;
+left: 580px;
+top: 650px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+/* Confirmation de mot de passe */
+.Confirmation_de_mot_de_passe {
+width: 390px;
+height: 26px;
+left: 550px;
+top: 621px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: flex-end;
+
+color: #000000;
+}
+
+
+/* Je m’inscrit */
+.je_m_inscrit {
+left: 550px;
+top: 756px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 39px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #FFFFFF;
+
+}
+/* Rectangle 12 */
+.rectangle_12{
+width: 856px;
+height: 66px;
+left: 580px;
+top: 700px;
+font-size: 40px;
+background-color: #000000;
+border-radius: 100px;
+}

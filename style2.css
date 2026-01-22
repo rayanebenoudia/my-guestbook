@@ -1,0 +1,282 @@
+/* Rectangle 1 */
+.rectangle_1{
+width: 1920px;
+height: 157px;
+left: 0px;
+top: 0px;
+
+background: #D9D9D9;
+}
+
+/* Accueil */
+.accueil{
+width: 233px;
+height: 78px;
+left: 477px;
+top: 40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+
+/* Connectez-vous */
+.connectez-vous{
+width: 1440px;
+height: 121px;
+left: 0px;
+top: 238px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 97px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+/* Connexion */
+.connexion{
+width: 230px;
+height: 97px;
+left: 981px;
+top: 33px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+
+/* Ellipse 2 */
+.Ellipse{
+width: 117px;
+height: 117px;
+left: 55px;
+top: 20px;
+
+background: #000000;
+}
+
+/* LOGO */
+.logo{
+width: 159px;
+height: 78px;
+left: 34px;
+top: 40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+/* Messages */
+.messages{
+width: 249px;
+height: 76px;
+left: 710px;
+top: 41px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+
+/* Rectangle 9 */
+.rectangle_9{
+width: 1010px;
+height: 410px;
+left: 215px;
+top: 376px;
+
+background: #D9D9D9;
+border-radius: 10px;
+}
+
+/* Rectangle 10 */
+.rectangle_10{
+width: 894px;
+height: 61px;
+left: 273px;
+top: 440px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+/* Rectangle 11 */
+.rectangle_11{
+width: 894px;
+height: 61px;
+left: 273px;
+top: 551px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+/* Rectangle 12 */
+.rectangle_12{
+width: 894px;
+height: 66px;
+left: 273px;
+top: 646px;
+background: #000000;
+border-radius: 100px;
+}
+
+/* Pseudo */
+.pseudo{
+width: 233px;
+height: 29px;
+left: 273px;
+top: 407px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identique à la hauteur de la zone de texte */
+display: flex;
+align-items: flex-end;
+
+color: #000000;
+
+}
+
+/* LaPlateforme.io */
+.laplateforme.io{
+width: 233px;
+height: 29px;
+left: 292px;
+top: 456px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identique à la hauteur de la zone de texte */
+display: flex;
+align-items: flex-end;
+
+color: #D9D9D9;
+
+}
+
+/* Mot de passe */
+.mdp{
+width: 233px;
+height: 29px;
+left: 273px;
+top: 519px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identique à la hauteur de la zone de texte */
+display: flex;
+align-items: flex-end;
+
+color: #000000;
+
+}
+
+/* LaPlateforme.io */
+.laplateforme.io{
+width: 233px;
+height: 29px;
+left: 292px;
+top: 567px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identique à la hauteur de la zone de texte */
+display: flex;
+align-items: flex-end;
+
+color: #D9D9D9;
+
+}
+
+/* Je me connecte */
+.je_me_connecte{
+width: 339px;
+height: 29px;
+left: 550px;
+top: 664px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+margin-left: 270px;
+}
+
+/* Je n’ai pas de compte, je m’inscris ici */
+.Je_n’ai_pas_de_compte_je_m’inscris_ici{
+width: 432px;
+height: 29px;
+left: 504px;
+top: 730px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identique à la hauteur de la zone de texte */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+
