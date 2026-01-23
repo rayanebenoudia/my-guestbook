@@ -19,15 +19,15 @@ session_start();
         
     <ul>
         <li><a href="./index.php">Accueil</a></li>
-        <li><a href="./guestbook.php">Livre d'or</a></li>
+        <li><a href="guestbook1.php">Livre d'or</a></li>
 
         <?php
         if (isset($_SESSION['user_id'])) {
-            echo '<li><a href="/profil.php">Profil</a></li>';
-            echo '<li><a href="/logout.php">Déconnexion</a></li>';
+            echo '<li><a href="./profil.php">Profil</a></li>';
+            echo '<li><a href="./logout.php">Déconnexion</a></li>';
         } else {
-            echo '<li><a href="/connexion.php">Connexion</a></li>';
-            echo '<li><a href="/inscription.php">Inscription</a></li>';
+            echo '<li><a href="./connexion.php">Connexion</a></li>';
+            echo '<li><a href="./inscription.php">Inscription</a></li>';
         }
         ?>
     </ul>
@@ -42,13 +42,18 @@ session_start();
     <div class="contenue">
         <h1>Bienvenue sur le Guestbook des Nations !</h1>
         <p>Partagez vos impressions, témoignages ou messages avec la communauté internationale.</p>
-        <a href="guestbook.php" class="btn">Accéder au livre d'or</a>
+        <a href="guestbook1.php" class="btn">Accéder au livre d'or</a>
     </div>
     </section>
 </main>
 
 <footer>
     <p>&copy; 2026 - Guestbook</p>
+    <div class="liens">
+        <a href="./index.php">Accueil</a>
+        <a href="./guestbook1.php">Livre d'or</a>
+
+    </div>
 </footer>
 
 </body>

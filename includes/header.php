@@ -16,21 +16,18 @@ session_start();
     </div>
     <nav class="menu">
     <ul>
-        <li><a href="/index.php">Accueil</a></li>
-        <li><a href="/guestbook.php">Livre d'or</a></li>
+        <li><a href="./index.php">Accueil</a></li>
+        <li><a href="./guestbook1.php">Livre d'or</a></li>
 
         <?php
         if (isset($_SESSION['user_id'])) {
-            echo '<li><a href="/profil.php">Profil</a></li>';
-            echo '<li><a href="/logout.php">Déconnexion</a></li>';
+            echo '<li><a href="./profil.php">Profil</a></li>';
+            echo '<li><a href="./logout.php">Déconnexion</a></li>';
         } else {
-            echo '<li><a href="/connexion.php">Connexion</a></li>';
-            echo '<li><a href="/inscription.php">Inscription</a></li>';
+            echo '<li><a href="./connexion.php">Connexion</a></li>';
+            echo '<li><a href="./inscription.php">Inscription</a></li>';
         }
         ?>
     </ul>
     </nav>
 </header>
-
-</body>
-</html>
