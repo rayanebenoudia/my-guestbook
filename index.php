@@ -20,14 +20,14 @@ session_start();
     <ul>
         <li><a href="./index.php">Accueil</a></li>
         <li><a href="./guestbook.php">Livre d'or</a></li>
-
+        
         <?php
         if (isset($_SESSION['user_id'])) {
-            echo '<li><a href="/profil.php">Profil</a></li>';
-            echo '<li><a href="/logout.php">Déconnexion</a></li>';
+            echo '<li><a href="./profil.php">Profil</a></li>';
+            echo '<li><a href="./logout.php">Déconnexion</a></li>';
         } else {
-            echo '<li><a href="/connexion.php">Connexion</a></li>';
-            echo '<li><a href="/inscription.php">Inscription</a></li>';
+            echo '<li><a href="./connexion.php">Connexion</a></li>';
+            echo '<li><a href="./inscription.php">Inscription</a></li>';
         }
         ?>
     </ul>
@@ -36,7 +36,7 @@ session_start();
 
 <!-- page d'accueil -->
 <main>
-    
+
     <section class="image-fond">
         <img src="images/15-plus-beaux-maillot-foot-saison-2021-2022.jpg" alt="image-fond">
     <div class="contenue">
