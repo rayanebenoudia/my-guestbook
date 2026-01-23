@@ -36,7 +36,7 @@ session_start();
 
 <!-- page d'accueil -->
 <main>
-    
+
     <section class="image-fond">
         <img src="images/15-plus-beaux-maillot-foot-saison-2021-2022.jpg" alt="image-fond">
     <div class="contenue">
