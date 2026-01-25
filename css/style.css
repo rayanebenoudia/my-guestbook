@@ -146,7 +146,7 @@ footer .liens a:hover{
 }
 
 .guestbook-main .message-card {
-    background: white;
+    background: var(--primary-color);
     padding: 1.2rem;
     margin-bottom: 1.5rem;
     border-radius: 8px;
@@ -187,4 +187,133 @@ footer .liens a:hover{
 
 .guestbook-main .post-btn:hover {
     background-color: var(--effet);
+}
+
+/* PAGE CONNEXION */
+.page-connexion .formulaire-cadre {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    max-width: 400px;
+    margin: 3rem auto;
+}
+
+.page-connexion h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    font-size: 2rem;
+}
+
+.page-connexion .mdp {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #34495e;
+}
+
+.page-connexion .rectangle_10,
+.page-connexion .rectangle_11 {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+    box-sizing: border-box;
+}
+
+.page-connexion .rectangle_12 {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #000;
+    color: var(--primary-color);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    transition: background 0.2s;
+}
+
+.page-connexion .rectangle_12:hover {
+    background-color: #222;
+}
+
+.page-connexion .je_me_connecte {
+    font-size: 1rem;
+}
+
+.page-connexion a {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    color: var(--effet);
+    text-decoration: none;
+}
+
+.page-connexion a:hover {
+    text-decoration: underline;
+}
+
+/* PAGE INSCRIPTION */
+.page-inscription .formulaire-cadre {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    max-width: 400px;
+    margin: 3rem auto;
+}
+
+.page-inscription h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    font-size: 2rem;
+}
+
+.page-inscription .pseudo,
+.page-inscription .email,
+.page-inscription .mots_de_passe,
+.page-inscription .Confirmation_de_mot_de_passe {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #34495e;
+}
+
+.page-inscription .rectangle_10,
+.page-inscription .rectangle_11,
+.page-inscription .rectangle_13,
+.page-inscription .rectangle_14 {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+    box-sizing: border-box;
+}
+
+.page-inscription .rectangle_12 {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    transition: background 0.2s;
+}
+
+.page-inscription .rectangle_12:hover {
+    background-color: #222;
+}
+
+.page-inscription .je_m_inscrit {
+    font-size: 1rem;
 }
