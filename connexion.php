@@ -3,18 +3,12 @@ require_once './includes/header.php';
 ?>
 <main>
 
-  <form method="POST" action="inscription.php">
-    <label for="pseudo" class="pseudo">Login</label>
-    <input
-    type="pseudo"
-    id="pseudo"
-    name="pseudo"
-    class="rectangle_10"
-    placeholder="LaPlateforme.io"
-    >
+  <form method="POST" action="">
+    
+    
     
     <!-- Email -->
-    <label for="password" class="mdp">Mot de passe</label>
+    <label for="email" class="email">Login</label>
     <input
     type="email"
     id="email"
