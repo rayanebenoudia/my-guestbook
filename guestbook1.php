@@ -10,13 +10,13 @@ if (!$conn) {
 <?php require_once './includes/header.php'; ?>
 
 <main class="guestbook-main">
-    <h2>Livre d'or</h2>
+    <h2>Avis des clients</h2>
 
     <?php
     $result = mysqli_query($conn, "
-        SELECT m.message, m.date, u.login 
-        FROM message m 
-        JOIN user u ON m.id_user = u.id 
+        SELECT m.message, m.date, u.login
+        FROM message m
+        JOIN user u ON m.id_user = u.id
         ORDER BY m.date DESC
     ");
 
