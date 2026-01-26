@@ -1,4 +1,6 @@
 <?php
+require_once './includes/header.php'; // ⚠️ Doit être en PREMIER
+
 $message = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     try {
@@ -32,8 +34,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-<?php require_once './includes/header.php'; ?>
-
 <body class="page-connexion">
 
 <main>
@@ -41,7 +41,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <h2>Connectez-vous</h2>
 
     <form method="POST" action="connexion.php">
-      <!-- Email -->
       <label for="email" class="mdp">Email</label>
       <input type="email" id="email" name="email" class="rectangle_10" placeholder="LaPlateforme.io">
 
